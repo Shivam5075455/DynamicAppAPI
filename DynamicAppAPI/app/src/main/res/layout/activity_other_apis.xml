@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OtherAPIs">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Different API's Data"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnApi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="API" />
+
+        <Button
+            android:id="@+id/btnLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Link" />
+
+        <Button
+            android:id="@+id/btnCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Category" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+<!--    <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="1dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Code"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Description"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Rate"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Rate_float-->
+<!--"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Symbol"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="UTC Offset"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Week Number"-->
+<!--                android:textSize="15sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="10dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Date Time"-->
+<!--                android:textStyle="bold" />-->
+<!--        </androidx.appcompat.widget.LinearLayoutCompat> &lt;!&ndash; Vertical &ndash;&gt;-->
+
+<!--        <androidx.appcompat.widget.LinearLayoutCompat-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvCode"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:hint="Code"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvDescription"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:hint="Description"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvRate"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:hint="Rate"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvRateFloat"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="RateFloat"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvSymbol"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="Symbol"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/utcOffset"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="utc_offset"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/weekNumber"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="week_number"-->
+<!--                android:textSize="15sp"-->
+<!--                />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/datetime"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="5dp"-->
+<!--                android:layout_marginTop="8dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:text="datetime"-->
+<!--                />-->
+
+<!--        </androidx.appcompat.widget.LinearLayoutCompat> &lt;!&ndash; Vertical &ndash;&gt;-->
+
+<!--    </androidx.appcompat.widget.LinearLayoutCompat>-->
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/> <!-- Horizontal -->
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
